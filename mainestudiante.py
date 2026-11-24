@@ -26,8 +26,6 @@ def main():
 
         opcion = input("Seleccione una opcion: ").strip()
 
-        # OPCION 1: CREAR ESTUDIANTE
-
         if opcion == "1":
 
             nombre = input("Ingrese el nombre del estudiante: ")
@@ -39,13 +37,11 @@ def main():
 
             lista_bd.append(nuevo)
 
-        # OPCION 2: LISTAR ESTUDIANTES
 
         elif opcion == "2":
 
             listar_estudiantes(lista_bd)
 
-        # OPCION 3: INGRESAR NOTA
 
         elif opcion == "3":
 
@@ -78,7 +74,6 @@ def main():
                 except ValueError:
                     print("Ingrese un numero valido")
 
-        # OPCION 4: CALCULAR PROMEDIO
 
         elif opcion == "4":
 
@@ -112,7 +107,6 @@ def main():
                 except ValueError:
                     print("Ingrese un numero valido")
 
-        # OPCION 5: AGREGAR MATERIA
 
         elif opcion == "5":
 
@@ -145,7 +139,6 @@ def main():
                 except ValueError:
                     print("Ingrese un numero valido")
 
-        # OPCION 6: MOSTRAR MATERIAS
 
         elif opcion == "6":
 
@@ -178,8 +171,6 @@ def main():
 
                 except ValueError:
                     print("Ingrese un numero valido")
-
-        # OPCION 7: SALIR
 
         elif opcion == "7":
 
